@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/subscriber",
+            "lambdaFunction": "fn",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/subscriber"
+        }
+    ],
+    "resourceName": "api",
+    "apiName": "api",
+    "functionArns": [
+        {
+            "lambdaFunction": "fn"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-contacts-dev-225910-authRole",
+        "unAuthRoleName": "amplify-contacts-dev-225910-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "fn",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+  "httpMethod": "POST",
+  "path": "/subscriber",
+  "headers": {},
+  "body": "{
+    "email": "aa",
+    "fistName": "bb",
+    "lastName": "cc"
+  }"
+}
