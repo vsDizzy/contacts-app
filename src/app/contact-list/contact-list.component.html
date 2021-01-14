@@ -1,0 +1,12 @@
+<table>
+  <th>id</th>
+  <th>email</th>
+  <th>firstName</th>
+  <th>lastName</th>
+  <tr *ngFor="let c of contacts; trackBy: getId">
+    <td>{{ c.id }}</td>
+    <td>{{ c.email }}</td>
+    <td>{{ c.firstName }}</td>
+    <td>{{ c.lastName }}</td>
+  </tr>
+</table>
